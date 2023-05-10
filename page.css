@@ -1,0 +1,209 @@
+body {
+    margin:0;
+    padding: 0;
+}
+
+.headerofpage {
+    background: white;
+    display: flex;
+    position: relative;
+    height:70px;
+    border-bottom: 1px solid grey;
+}
+
+.vkheader {
+      position: absolute;  
+      
+      padding: 0x;
+}
+
+.vkheader img {
+    position: absolute;
+    left: 200px;
+    width: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.vkheader h1 {
+    position: absolute;
+    left: 250px;
+    top: 0px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+.btnsearch {
+    background: lightgray;
+    position: absolute;
+    left: 380px;
+    margin: 15px;
+    width: 15px;
+    height: 30px;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+   .btnsearch-img {
+    width: 20px;
+   
+} 
+
+.btnheader {
+    position: absolute;
+    left: 400px;
+    background: lightgray;
+    padding: 7px 5px 7px 25px;
+    border-radius: 8px;   
+    border: 1px solid white;
+    outline: none;
+    margin: 15px;
+    
+     
+}
+
+/* .position {
+    background: black;
+    width: 50px;
+    height: 50px;
+    position: relative;
+} */
+
+.message-fixed {
+    background: red;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.notifications {
+    margin: 10px
+}
+
+
+.notifications:hover {
+    background: lightgray;
+}
+
+.notifications img {
+    width: 30px;
+    position: absolute;
+    left: 630px;
+    cursor: pointer;
+}
+
+.notifications img:hover {
+    background: lightgray;
+}
+
+.audio-header {
+    position: absolute;
+    left: 680px;
+    cursor: pointer;
+}
+
+.audio-header:hover {
+    background: lightgray;
+}
+
+.kvadratiki img {
+    position: absolute;
+    width: 25px;
+    right: 750px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.kvadratiki img:hover {
+    background: lightgray;
+}
+
+.avatarka img {
+    margin: 10px;
+    position: absolute;
+    right: 690px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatarka img:hover {
+    background: lightgray;
+}
+
+.avatarkabtnmenu {
+    margin: 50px;
+    position: absolute;
+    right: 655px;
+    display: none;
+}
+
+.avatarka:hover .avatarkabtnmenu {
+    display: block;
+}
+
+.btnmenu-list {
+    list-style-type: none;
+}
+
+.btnmenu-list a {
+    text-decoration: none;
+}
+
+
+
+.mainspaceofpage {
+    margin: 0;
+    background: #B0E0E6;
+    width: 100%;
+    height: 100%;
+    /* display: list-item; */
+}
+
+.mainspaceofpage li {
+    list-style-type: none;
+}
+
+
+.list1 {
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#idclasslist {
+    padding-bottom: 5px;
+    width: 150px;
+    margin: 6px;
+    
+}  
+
+#idclasslist:hover {
+    background: lightgrey;
+    
+}
+
+.line-under-market {
+    width: 130px;
+    border-bottom: 1px solid grey;
+    margin-left: 7px;
+    
+}
+
+#idclasslist1 {
+    width: 150px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+}  
+
+#idclasslist1:hover {
+    background: lightgrey;
+}  
